@@ -10,7 +10,7 @@ arcade.set_background_color(open_color.white)
 # Start the render process. This must be done before any drawing commands.
 arcade.start_render()
 
-face_x,face_y = (0,0)
+face_x,face_y = (400,300)
 
 # Draw the smiley face:
 # (x,y,radius,color)
