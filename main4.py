@@ -13,15 +13,15 @@ arcade.start_render()
 
 
 #start at 100, go to 799, counting by 150
-for x in range(100,800,150):
+for x in range(100,800,250):
         #start at 100, go to 599, counting by 150
-        for y in range(100,600,150):
+        for y in range(100,600,210):
                 face_x,face_y = (x,y)
-                smile_x,smile_y = (face_x + 0,face_y - 0)
-                eye1_x,eye1_y = (face_x - 0,face_y + 0) 
-                eye2_x,eye2_y = (face_x + 0,face_y + 0)
-                catch1_x,catch1_y = (face_x - 0,face_y + 0) 
-                catch2_x,catch2_y = (face_x + 0,face_y + 0) 
+                smile_x,smile_y = (face_x - 0,face_y - 35)
+                eye1_x,eye1_y = (face_x - 50,face_y + 25) 
+                eye2_x,eye2_y = (face_x + 50,face_y + 25)
+                catch1_x,catch1_y = (face_x - 50,face_y + 35) 
+                catch2_x,catch2_y = (face_x + 50,face_y + 35) 
 
 
                 # Draw the smiley face:
